@@ -1,0 +1,25 @@
+{
+  "include": ["*.ts", "*.nts", "compile.ts", "test.nts"],
+  "compilerOptions": {
+    "types": ["node"],
+    "target": "es2022",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "declaration": true,
+    "sourceMap": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "lib": ["esnext"],
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "allowImportingTsExtensions": true,
+    "noEmit": true
+  }
+}

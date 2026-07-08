@@ -1,0 +1,23 @@
+{
+  "name": "compiler",
+  "version": "1.0.0",
+  "main": "./compile.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc --noEmit && node compile.ts",
+    "dev": "nodemon --watch . --ext ts --exec \"tsc --noEmit && node compile.ts || exit 1\"",
+    "build:nts": "node compile.ts "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.5"
+  }
+}

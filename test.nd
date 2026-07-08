@@ -1,0 +1,18 @@
+declare ui home {
+  render {
+    div{
+      div{
+      }.style{divStyle}
+
+      h1{
+        ahahahaha
+      }
+    }
+  }
+}
+
+declare.scope(ui_home, [ui_home]);
+declare.data {
+  title;
+  theme;
+}

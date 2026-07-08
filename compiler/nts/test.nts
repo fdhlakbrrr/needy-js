@@ -1,0 +1,4 @@
+alias(log, console.log)
+
+log("halooo");
+log("halooo 2");
